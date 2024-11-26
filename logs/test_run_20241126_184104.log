@@ -1,0 +1,18 @@
+2024-11-26 18:41:04 - INFO - 
+Starting feature execution: User open URL
+2024-11-26 18:41:04 - INFO - 
+Starting scenario execution: Successful open URL
+2024-11-26 18:41:05 - INFO - URL https://example.com/6666 is opened
+2024-11-26 18:41:07 - INFO - Wait 2 seconds
+2024-11-26 18:41:08 - SUCCESS - Scenario 'Successful open URL' successfully completed
+2024-11-26 18:41:08 - INFO - 
+Starting scenario execution: 1111Successful open URL
+2024-11-26 18:41:09 - INFO - URL https://example.com/6666 is opened
+2024-11-26 18:41:11 - INFO - Wait 2 seconds
+2024-11-26 18:41:41 - ERROR - Error click on: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator(".menu-icon")
+
+2024-11-26 18:41:41 - ERROR - Scenario '1111Successful open URL' failed
+2024-11-26 18:41:41 - INFO - Finishing feature execution: User open URL
+2024-11-26 18:41:41 - INFO - Finishing all tests execution
