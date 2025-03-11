@@ -52,23 +52,23 @@ The framework uses a built-in logging mechanism with the following levels:
 
 ### Dropdown Steps
  Given dropdown "Some dropdown" has the following values
- Then dropdown "Some dropdown" should have the following values
- **   |value       |
+ Then dropdown "Some dropdown" should have the following values <br/>
+ **   |value       | <br/>
  **   |First option|
 
  Given (partially|exactly): dropdown "Some dropdown" (contains|not contains) the following values
- Then (partially|exactly): dropdown "Some dropdown" (contains|not contains) the followingvalues
- **   |value       |
+ Then (partially|exactly): dropdown "Some dropdown" (contains|not contains) the followingvalues <br/>
+ **   |value       | <br/>
  **   |First option|
 
  Given the following values are selected in "Some dropdown"
- Then the following values should be selected in "Some dropdown"
- **   |value       |
+ Then the following values should be selected in "Some dropdown" <br/>
+ **   |value       | <br/>
  **   |First option|
 
  Given the following values {behavior} in "Some dropdown" dropdown
- Then the following values should be {behavior} in "Some dropdown" dropdown
- **   |value       |
+ Then the following values should be {behavior} in "Some dropdown" dropdown <br/>
+ **   |value       | <br/>
  **   |First option|
 
  Given no values are selected in "Some dropdown"
@@ -78,8 +78,8 @@ The framework uses a built-in logging mechanism with the following levels:
  When deselects all values in "Some dropdown"
 
  Given user selects values in "Some dropdown"
- When user selects values in "Some dropdown"
- **   |value       |
+ When user selects values in "Some dropdown" <br/>
+ **   |value       | <br/>
  **   |First option|
 
 ### Download Steps
@@ -103,22 +103,22 @@ The framework uses a built-in logging mechanism with the following levels:
  Then text should (be|be not|become not) empty inside "Test-element"
 
 ### List steps
- Given list "Some list" (has|does not have) the following items
- **   |itemName     |
- **   |Test value 1 |
+ Given list "Some list" (has|does not have) the following items <br/>
+ **   |itemName     | <br/>
+ **   |Test value 1 | <br/>
  **   |Test value 2 |
- Then list "Some list" (have|not have) the following items
- **   |itemName     |
- **   |Test value 1 |
+ Then list "Some list" (have|not have) the following items <br/>
+ **   |itemName     | <br/>
+ **   |Test value 1 | <br/>
  **   |Test value 2 |
 
- Given in exact order list "Some list" (has|does not have) the following items
- **   |itemName     |
- **   |Test value 1 |
+ Given in exact order list "Some list" (has|does not have) the following items <br/>
+ **   |itemName     | <br/>
+ **   |Test value 1 | <br/>
  **   |Test value 2 |
- Then in exact order list "Some list" (have|not have) the following items
- **   |itemName     |
- **   |Test value 1 |
+ Then in exact order list "Some list" (have|not have) the following items <br/>
+ **   |itemName     | <br/>
+ **   |Test value 1 | <br/>
  **   |Test value 2 |
 
 ### Navigation steps
